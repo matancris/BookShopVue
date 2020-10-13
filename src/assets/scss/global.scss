@@ -1,0 +1,26 @@
+// Setup
+@import "./setup/variables";
+@import "./setup/functions";
+@import "./setup/mixins";
+@import "./setup/typography";
+// @import "./setup/typography";
+
+// Basics
+@import "./basics/helpers";
+@import "./basics/base";
+@import "./basics/layout";
+
+// Components
+@import "./componenets/header";
+@import "./componenets/footer";
+@import "./componenets/bookList";
+@import "./componenets/bookDetails";
+@import "./componenets/bookAdd";                                  
+@import "./componenets/reviewList";
+@import "./componenets/reviewAdd";                                  
+
+// Views
+@import "./views/home";
+@import "./views/bookApp";
+@import "./views/about";
+

@@ -1,0 +1,36 @@
+.review-add {
+   height: 100vh;
+   width: 100vw;
+    position: fixed;
+    top: 0;
+    // top: calc(100vh - 50% - 225px);
+    // margin: 0 auto;
+
+
+
+    .review-form {
+        width: rem(350px);
+        height: rem(450px);
+        background-color: #fff3e4;
+        position: fixed;
+        top: calc(100vh - 50% - 225px);
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        border-radius: 5px;
+        z-index: 1;
+
+        >*:not(button) {
+            min-width: 50%;
+        }
+
+        .close-add-btn {
+            box-shadow: none;
+            border: none;
+            position: absolute;
+            right: 5px;
+            top: 5px;
+        }
+    }
+
+}
